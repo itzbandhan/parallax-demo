@@ -1,0 +1,56 @@
+/* import any font of your choice for better ui of the website */
+/* i will import Rubik from https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Rubik;
+}
+/* section with normal as class name */
+.normal{
+    height: 50vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+/* parallax efect section code */
+/* please note the most important part in making this effect is the backgrouund-attachment part. */
+.parallax{
+    height: 100vh;
+    width: 100%;
+    /* set the background attachment to fixed for the parallx effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+    flex-direction: column;
+}
+.parallax__one{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('https://picsum.photos/200/300/?blur');
+}
+
+.parallax__two{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('https://picsum.photos/400/200/?blur');
+
+}
+p{
+    margin: 1rem 0;
+}
+
+
+/* thank you. please star this repository and follow me on github. - Bandhan Pokhrel */
+/* github link: https://github.com/itzbandhan/ */
