@@ -1,3 +1,3 @@
 ﻿# parallax-demo
 check the live hosted example
-here
+here: https://itzbandhan.github.io/parallax-demo/
